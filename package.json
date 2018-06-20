@@ -1,0 +1,37 @@
+{
+  "name": "web-api-nodejs",
+  "version": "1.2.0",
+  "private": true,
+  "apidoc": {
+    "title": "sc-analytics API documentation",
+    "url": "[web-api-node URL]"
+  },
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "async": "^2.5.0",
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.4",
+    "data-shaper": "^1.0.1",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "jade": "~1.11.0",
+    "l": "^0.6.0",
+    "morgan": "^1.9.0",
+    "mysql": "^2.15.0",
+    "node-json-transform": "^1.0.13",
+    "node-localstorage": "^1.3.0",
+    "passport": "^0.4.0",
+    "passport-http-bearer": "^1.0.1",
+    "pg": "7.3.0",
+    "serve-favicon": "~2.4.5",
+    "underscore": "^1.8.3",
+    "validator": "^9.1.1"
+  },
+  "devDependencies": {
+    "mocha": "^4.0.1"
+  }
+}

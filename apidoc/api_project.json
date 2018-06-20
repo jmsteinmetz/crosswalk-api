@@ -1,0 +1,1 @@
+{  "title": "sc-analytics API documentation",  "url": "[web-api-node URL]",  "name": "web-api-nodejs",  "version": "1.2.0",  "description": "",  "sampleUrl": false,  "defaultVersion": "0.0.0",  "apidoc": "0.3.0",  "generator": {    "name": "apidoc",    "time": "2017-10-20T19:17:50.683Z",    "url": "http://apidocjs.com",    "version": "0.17.6"  }}
