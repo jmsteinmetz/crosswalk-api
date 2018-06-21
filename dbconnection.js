@@ -1,14 +1,15 @@
 var mysql = require('mysql');
-// var connection = mysql.createPool({
-//   host     : 'us-cdbr-iron-east-05.cleardb.net',
-//   user     : 'be632e61bef4c4',
-//   password : '5db024ac',
-//   database : 'heroku_3fb9033ff0be812'
-// });
 var connection = mysql.createPool({
-  host     : 'localhost',
-  user     : 'root',
-  password : 'root',
-  database : 'api'
+  host     : 'us-cdbr-iron-east-04.cleardb.net',
+  user     : 'b238200554591a',
+  password : '9d34fb8b',
+  database : 'heroku_1d38aec91fa44ed'
 });
+
+// var connection = mysql.createPool({
+//   host     : 'localhost',
+//   user     : 'root',
+//   password : 'root',
+//   database : 'api'
+// });
 module.exports = connection;
